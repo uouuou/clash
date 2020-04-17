@@ -11,6 +11,9 @@ github.com/dgryski/go-rc2 v0.0.0-20150621095337-8a9021637152 h1:ED31mPIxDJnrLt9W
 github.com/dgryski/go-rc2 v0.0.0-20150621095337-8a9021637152/go.mod h1:I9fhc/EvSg88cDxmfQ47v35Ssz9rlFunL/KY0A1JAYI=
 github.com/eapache/queue v1.1.0 h1:YOEu7KNc61ntiQlcEeUIoDTJ2o8mQznoNvUhiigpIqc=
 github.com/eapache/queue v1.1.0/go.mod h1:6eCeP0CKFpHLu8blIFXhExK/dRa7WDZfr6jVFPTqq+I=
+github.com/ebfe/rc2 v0.0.0-20131011165748-24b9757f5521/go.mod h1:ucvhdsUCE3TH0LoLRb6ShHiJl8e39dGlx6A4g/ujlow=
+github.com/go-chi/chi v4.0.2+incompatible h1:maB6vn6FqCxrpz4FqWdh4+lwpyZIQS7YEAUcHlgXVRs=
+github.com/go-chi/chi v4.0.2+incompatible/go.mod h1:eB3wogJHnLi3x/kFX2A+IbTBlXxmMeXJVKy9tTv1XzQ=
 github.com/go-chi/chi v4.0.3+incompatible h1:gakN3pDJnzZN5jqFV2TEdF66rTfKeITyR8qu6ekICEY=
 github.com/go-chi/chi v4.0.3+incompatible/go.mod h1:eB3wogJHnLi3x/kFX2A+IbTBlXxmMeXJVKy9tTv1XzQ=
 github.com/go-chi/cors v1.0.0 h1:e6x8k7uWbUwYs+aXDoiUzeQFT6l0cygBYyNhD7/1Tg0=
@@ -31,6 +34,8 @@ github.com/oschwald/maxminddb-golang v1.6.0 h1:KAJSjdHQ8Kv45nFIbtoLGrGWqHFajOIm7
 github.com/oschwald/maxminddb-golang v1.6.0/go.mod h1:DUJFucBg2cvqx42YmDa/+xHvb0elJtOm3o4aFQ/nb/w=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/sh4d0wfiend/go-shadowsocksr v0.0.0-20200218095529-0fd9f315b912 h1:9sd/zuvwCl38gOQh9aQhY/sGILsuQqBDc1bixuLkpu8=
+github.com/sh4d0wfiend/go-shadowsocksr v0.0.0-20200218095529-0fd9f315b912/go.mod h1:OSy2bLNH3HeftSSw1flC8LaNhplhhsKGcttISBTmnRo=
 github.com/sirupsen/logrus v1.4.2 h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
