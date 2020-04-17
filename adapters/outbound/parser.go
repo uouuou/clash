@@ -24,6 +24,13 @@ func ParseProxy(mapping map[string]interface{}) (C.Proxy, error) {
 			break
 		}
 		proxy, err = NewShadowSocks(*ssOption)
+	case "ssr":
+		ssrOption := &ShadowsocksROption{}
+		err = decoder.Decode(mapping, ssrOption)
+		if err != nil {
+			break
+		}
+		proxy, err = NewShadowsocksR(*ssrOption)
 	case "socks5":
 		socksOption := &Socks5Option{}
 		err = decoder.Decode(mapping, socksOption)
@@ -39,12 +46,7 @@ func ParseProxy(mapping map[string]interface{}) (C.Proxy, error) {
 		}
 		proxy = NewHttp(*httpOption)
 	case "vmess":
-		vmessOption := &VmessOption{
-			HTTPOpts: HTTPOptions{
-				Method: "GET",
-				Path:   []string{"/"},
-			},
-		}
+		vmessOption := &VmessOption{}
 		err = decoder.Decode(mapping, vmessOption)
 		if err != nil {
 			break

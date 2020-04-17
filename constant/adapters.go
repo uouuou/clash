@@ -13,6 +13,7 @@ const (
 	Reject
 
 	Shadowsocks
+	ShadowsocksR
 	Snell
 	Socks5
 	Http
@@ -97,6 +98,8 @@ func (at AdapterType) String() string {
 
 	case Shadowsocks:
 		return "Shadowsocks"
+	case ShadowsocksR:
+		return "ShadowsocksR"
 	case Snell:
 		return "Snell"
 	case Socks5:
@@ -135,8 +138,8 @@ type UDPPacket interface {
 	//   this is important when using Fake-IP.
 	WriteBack(b []byte, addr net.Addr) (n int, err error)
 
-	// Drop call after packet is used, could recycle buffer in this function.
-	Drop()
+	// Close closes the underlaying connection.
+	Close() error
 
 	// LocalAddr returns the source IP/Port of packet
 	LocalAddr() net.Addr
